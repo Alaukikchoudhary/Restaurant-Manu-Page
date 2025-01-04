@@ -1,0 +1,94 @@
+/* General Reset */
+body, h1, h2, p, button {
+    margin: 250;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #ded7bd; /* Light gray background */
+    color: #333; /* Neutral text color */
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
+img{ 
+    max-width: 800px;
+    height: fit-content;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2rem;
+    color: #2d2b2b;
+    margin-bottom: 2px;
+}
+
+/* Alert Styling */
+.alert {
+    font-size: 1rem;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #d1f4ff; /* Light blue */
+    color: #333;
+    border-radius: 5px;
+    display: -ms-inline-grid;
+    text-align: left;
+}
+
+/* Menu Section */
+h2 {
+    font-size: 1.5rem;
+    color: #414040;
+    margin-bottom: 10px;
+    text-align: justify ;
+}
+
+p {
+    font-size: 1rem;
+    color: #1b1a1a;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.badge {
+    font: size 25px;
+    background-color: #d79d22; /* Orange background */
+    color: #f0eaea;
+    border-radius: 5 px;
+    padding: 2px 8px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Button Styling */
+button {
+    background-color: #7b500a; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #6b4708; /* Darker shade for hover */
+}
